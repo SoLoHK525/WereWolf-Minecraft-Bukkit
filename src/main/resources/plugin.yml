@@ -1,0 +1,17 @@
+main: com.hkhbc.mc.Main
+name: WereWolf
+version: 1.0
+author: SoLo
+description: Custom Werewolf plugin
+api-version: 1.13
+commands:
+    werewolf:
+       description: See all the available commands.
+       usage: /werewolf help
+       permission: werewolf.help
+       permission-message: You don't have the permission..
+    ww:
+       description: See all the available commands.
+       usage: /ww help
+       permission: werewolf.help
+       permission-message: You don't have the permission..
